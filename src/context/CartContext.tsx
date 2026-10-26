@@ -16,7 +16,10 @@ interface CartContextType {
   setIsCartOpen: (open: boolean) => void;
   totalItems: number;
   subtotal: number;
-  deliveryFee: number;
+  totalWeightGrams: number;
+  /** Null until Vertik has quoted delivery for the shopper's city at checkout. */
+  deliveryFee: number | null;
+  setDeliveryFee: (fee: number | null) => void;
   total: number;
   selectedProduct: Product | null;
   setSelectedProduct: (product: Product | null) => void;
@@ -27,7 +30,8 @@ interface CartContextType {
 
 const CartContext = createContext<CartContextType | undefined>(undefined);
 
-const CART_STORAGE_KEY = 'illumea_cart_v1';
+// v2: carts now hold Vertik product ids. A v1 cart's ids would be refused at checkout.
+const CART_STORAGE_KEY = 'illumea_cart_v2';
 
 export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [cart, setCart] = useState<CartItem[]>(() => {
@@ -42,6 +46,7 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children
   const [isCartOpen, setIsCartOpen] = useState(false);
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
   const [isCheckoutOpen, setIsCheckoutOpen] = useState(false);
+  const [deliveryFee, setDeliveryFee] = useState<number | null>(null);
 
   useEffect(() => {
     try {
@@ -94,9 +99,9 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
   const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
   const subtotal = cart.reduce((sum, item) => sum + item.product.price * item.quantity, 0);
-  // Free delivery for orders over Rs. 5000, otherwise Rs. 350 standard islandwide
-  const deliveryFee = subtotal >= 5000 || subtotal === 0 ? 0 : 350;
-  const total = subtotal + deliveryFee;
+  const totalWeightGrams = cart.reduce((sum, item) => sum + (item.product.weightGrams || 0) * item.quantity, 0);
+  // Delivery is priced by Vertik for the city, so it is only known once the shopper gives one.
+  const total = subtotal + (deliveryFee ?? 0);
 
   return (
     <CartContext.Provider
@@ -110,7 +115,9 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children
         setIsCartOpen,
         totalItems,
         subtotal,
+        totalWeightGrams,
         deliveryFee,
+        setDeliveryFee,
         total,
         selectedProduct,
         setSelectedProduct,

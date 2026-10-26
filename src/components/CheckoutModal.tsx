@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { X, CheckCircle, Truck, CreditCard, Banknote, ShieldCheck, MessageCircle, AlertCircle } from 'lucide-react';
+import React, { useEffect, useState } from 'react';
+import { X, CheckCircle, Truck, Banknote, ShieldCheck, MessageCircle, AlertCircle } from 'lucide-react';
 import confetti from 'canvas-confetti';
 import { useCart } from '../context/CartContext';
 import { api } from '../services/api';
@@ -13,20 +13,45 @@ const SRI_LANKA_DISTRICTS = [
 ];
 
 export const CheckoutModal: React.FC = () => {
-  const { isCheckoutOpen, setIsCheckoutOpen, cart, subtotal, deliveryFee, total, clearCart } = useCart();
+  const { isCheckoutOpen, setIsCheckoutOpen, cart, subtotal, totalWeightGrams, deliveryFee, setDeliveryFee, total, clearCart } = useCart();
 
   const [fullName, setFullName] = useState('');
   const [phone, setPhone] = useState('');
   const [address, setAddress] = useState('');
   const [city, setCity] = useState('');
   const [district, setDistrict] = useState('Kandy');
-  const [paymentMethod, setPaymentMethod] = useState<'cod' | 'bank' | 'card'>('cod');
+  const [paymentMethod, setPaymentMethod] = useState<'cod' | 'bank'>('cod');
   const [notes, setNotes] = useState('');
-  
+
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [orderComplete, setOrderComplete] = useState(false);
   const [orderId, setOrderId] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
+  const [quoteMessage, setQuoteMessage] = useState('');
+  const [deliverable, setDeliverable] = useState(true);
+
+  // Vertik prices delivery by city, basket weight and subtotal; ask again whenever any of them
+  // changes, a moment after the shopper stops typing.
+  useEffect(() => {
+    if (!isCheckoutOpen || !city.trim() || cart.length === 0) {
+      setDeliveryFee(null);
+      setQuoteMessage('');
+      setDeliverable(true);
+      return;
+    }
+    let live = true;
+    const timer = setTimeout(() => {
+      api.getShippingQuote(city.trim(), totalWeightGrams, subtotal)
+        .then((q) => {
+          if (!live) return;
+          setDeliverable(q.deliverable);
+          setDeliveryFee(q.deliverable ? (q.fee ?? 0) : null);
+          setQuoteMessage(q.deliverable ? '' : q.message);
+        })
+        .catch(() => { if (live) setDeliveryFee(null); });
+    }, 500);
+    return () => { live = false; clearTimeout(timer); };
+  }, [isCheckoutOpen, city, totalWeightGrams, subtotal, cart.length, setDeliveryFee]);
 
   if (!isCheckoutOpen) return null;
 
@@ -44,24 +69,31 @@ export const CheckoutModal: React.FC = () => {
       return;
     }
 
+    if (!deliverable) {
+      setErrorMessage(quoteMessage || 'We do not deliver to that city yet. Please order via WhatsApp.');
+      return;
+    }
+
     setIsSubmitting(true);
 
     try {
-      const response = await api.createOrder({
-        customer: { fullName, phone, address, city, district },
+      // The order goes straight into Vertik, which holds the stock and checks every price.
+      const order = await api.createOrder({
+        name: fullName,
+        phone,
+        address: `${address}, ${district}`,
+        city,
+        paymentMethod: paymentMethod === 'bank' ? 'bank_transfer' : 'cod',
+        notes,
+        deliveryFee,
         items: cart.map(item => ({
-          productId: item.product.id,
-          name: item.product.name,
-          size: item.product.size,
-          price: item.product.price,
-          quantity: item.quantity
+          itemId: item.product.id,
+          quantity: item.quantity,
+          unitPrice: item.product.price,
         })),
-        paymentMethod,
-        notes
       });
 
-      const generatedId = response?.data?.id || `ILM-${Math.floor(100000 + Math.random() * 900000)}`;
-      setOrderId(generatedId);
+      setOrderId(order.order_number);
       setIsSubmitting(false);
       setOrderComplete(true);
 
@@ -75,9 +107,9 @@ export const CheckoutModal: React.FC = () => {
       } catch {
         // ignore
       }
-    } catch {
+    } catch (err) {
       setIsSubmitting(false);
-      setErrorMessage('Could not process order. Please try again or order directly via WhatsApp.');
+      setErrorMessage(`${(err as Error).message} You can also order directly via WhatsApp.`);
     }
   };
 
@@ -242,7 +274,8 @@ export const CheckoutModal: React.FC = () => {
                   2. Select Payment Method
                 </h3>
 
-                <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                {/* Card payment appears once a gateway is set up in Vertik (GET /payments). */}
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                   <label
                     className={`flex flex-col p-3 rounded-2xl border cursor-pointer transition ${
                       paymentMethod === 'cod'
@@ -285,26 +318,6 @@ export const CheckoutModal: React.FC = () => {
                     <span className="text-[11px] text-stone-500 pl-5">Commercial / Sampath</span>
                   </label>
 
-                  <label
-                    className={`flex flex-col p-3 rounded-2xl border cursor-pointer transition ${
-                      paymentMethod === 'card'
-                        ? 'border-emerald-600 bg-emerald-50/60 ring-2 ring-emerald-600/20'
-                        : 'border-stone-200 hover:border-stone-300'
-                    }`}
-                  >
-                    <div className="flex items-center gap-2 mb-1">
-                      <input
-                        type="radio"
-                        name="payment"
-                        checked={paymentMethod === 'card'}
-                        onChange={() => setPaymentMethod('card')}
-                        className="text-emerald-700 focus:ring-emerald-600"
-                      />
-                      <CreditCard className="w-4 h-4 text-emerald-700" />
-                      <span className="text-xs font-bold text-stone-900">Visa / Master</span>
-                    </div>
-                    <span className="text-[11px] text-stone-500 pl-5">Secure online card</span>
-                  </label>
                 </div>
 
                 {paymentMethod === 'bank' && (
@@ -324,8 +337,13 @@ export const CheckoutModal: React.FC = () => {
                 </div>
                 <div className="flex justify-between text-stone-600">
                   <span>Islandwide Delivery</span>
-                  <span>{deliveryFee === 0 ? <strong className="text-emerald-700">FREE</strong> : `රු ${deliveryFee.toLocaleString()}`}</span>
+                  <span>
+                    {deliveryFee === null
+                      ? <span className="text-stone-400">{city.trim() ? 'Checking...' : 'Enter your city'}</span>
+                      : deliveryFee === 0 ? <strong className="text-emerald-700">FREE</strong> : `රු ${deliveryFee.toLocaleString()}`}
+                  </span>
                 </div>
+                {quoteMessage && <p className="text-rose-700">{quoteMessage}</p>}
                 <div className="flex justify-between text-sm font-extrabold text-stone-900 pt-2 border-t border-stone-200">
                   <span>Grand Total</span>
                   <span className="text-[#1b3b22]">රු {total.toLocaleString()}</span>

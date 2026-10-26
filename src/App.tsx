@@ -14,21 +14,20 @@ import { AboutSection } from './components/AboutSection';
 import { ContactSection } from './components/ContactSection';
 import { PolicyModal } from './components/PolicyModal';
 import { WhatsAppButton } from './components/WhatsAppButton';
-import { AdminDashboard } from './components/AdminDashboard';
 import { Footer } from './components/Footer';
-import { PRODUCTS } from './data/products';
+import { ProductsProvider, useProducts } from './context/ProductsContext';
 import { Sparkles, ArrowRight } from 'lucide-react';
 
 export function AppContent() {
   const [activeTab, setActiveTab] = useState('home');
   const [searchQuery, setSearchQuery] = useState('');
   const [activePolicy, setActivePolicy] = useState<'refund' | 'terms' | 'privacy' | null>(null);
-  const [isAdminOpen, setIsAdminOpen] = useState(false);
+  const { products } = useProducts();
 
   // Latest products for the homepage
-  const latestProducts = PRODUCTS.slice(0, 8);
+  const latestProducts = products.slice(0, 8);
   // Discount products for homepage
-  const discountProducts = PRODUCTS.filter((p) => p.isDiscount);
+  const discountProducts = products.filter((p) => p.isDiscount);
 
   const handleNavClick = (tab: string) => {
     setActiveTab(tab);
@@ -160,10 +159,6 @@ export function AppContent() {
       <ProductModal />
       <CartDrawer />
       <CheckoutModal />
-      <AdminDashboard
-        isOpen={isAdminOpen}
-        onClose={() => setIsAdminOpen(false)}
-      />
       <PolicyModal
         policyType={activePolicy}
         onClose={() => setActivePolicy(null)}
@@ -176,7 +171,6 @@ export function AppContent() {
       <Footer
         onNavClick={handleNavClick}
         onOpenPolicy={(type) => setActivePolicy(type)}
-        onOpenAdmin={() => setIsAdminOpen(true)}
       />
     </div>
   );
@@ -184,9 +178,11 @@ export function AppContent() {
 
 export function App() {
   return (
-    <CartProvider>
-      <AppContent />
-    </CartProvider>
+    <ProductsProvider>
+      <CartProvider>
+        <AppContent />
+      </CartProvider>
+    </ProductsProvider>
   );
 }
 

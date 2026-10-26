@@ -9,11 +9,18 @@ export const ContactSection: React.FC = () => {
   const [subject, setSubject] = useState('');
   const [message, setMessage] = useState('');
   const [submitted, setSubmitted] = useState(false);
+  const [error, setError] = useState('');
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    await api.submitContact({ name, phone, email, subject, message });
-    setSubmitted(true);
+    setError('');
+    try {
+      // Arrives in Vertik's Enquiries, where the team answers it.
+      await api.submitContact({ name, phone, email: email || undefined, subject, message });
+      setSubmitted(true);
+    } catch (err) {
+      setError((err as Error).message);
+    }
   };
 
   const handleWhatsAppSend = () => {
@@ -236,6 +243,7 @@ export const ContactSection: React.FC = () => {
                     <span>Send via WhatsApp</span>
                   </button>
                 </div>
+                {error && <p className="text-xs text-red-600">{error}</p>}
               </form>
             ) : (
               <div className="text-center py-12 space-y-4 animate-fade-in">

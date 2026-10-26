@@ -1,7 +1,8 @@
 import React from 'react';
 import { Sparkles, ArrowRight, ShieldCheck, Leaf, HeartHandshake, CheckCircle2 } from 'lucide-react';
 import { useCart } from '../context/CartContext';
-import { PRODUCTS } from '../data/products';
+import { CONTENT } from '../data/products';
+import { useProducts } from '../context/ProductsContext';
 
 interface HeroProps {
   onShopClick: () => void;
@@ -10,7 +11,13 @@ interface HeroProps {
 
 export const Hero: React.FC<HeroProps> = ({ onShopClick, onAboutClick }) => {
   const { openQuickOrder } = useCart();
-  const heroProduct = PRODUCTS[0]; // Brightening Night Cream
+  const { products } = useProducts();
+  // The night cream when the ERP sells it, else its best seller. Until the ERP has published
+  // anything the card is drawn from the site's own copy and the button goes to the shop, since
+  // a product the ERP does not list cannot be ordered.
+  const sellable = products.find((p) => p.name.toLowerCase() === CONTENT[0].name.toLowerCase())
+    ?? products.find((p) => p.isBestSeller) ?? products[0];
+  const heroProduct = sellable ?? CONTENT[0];
 
   return (
     <section className="relative overflow-hidden bg-gradient-to-b from-[#f5f1ea] via-[#faf7f2] to-[#faf9f6] pt-10 pb-16 lg:pt-16 lg:pb-24 border-b border-stone-200/50">
@@ -160,7 +167,7 @@ export const Hero: React.FC<HeroProps> = ({ onShopClick, onAboutClick }) => {
                   </div>
 
                   <button
-                    onClick={() => openQuickOrder(heroProduct)}
+                    onClick={() => (sellable ? openQuickOrder(sellable) : onShopClick())}
                     className="px-4 py-2.5 bg-amber-500 hover:bg-amber-600 text-stone-950 font-bold rounded-xl text-xs transition shadow-xs flex items-center gap-1"
                   >
                     Quick Order

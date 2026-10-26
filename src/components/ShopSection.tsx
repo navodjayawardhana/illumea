@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import { SlidersHorizontal, Sparkles, Search } from 'lucide-react';
-import { PRODUCTS } from '../data/products';
 import { ProductCard } from './ProductCard';
+import { useProducts } from '../context/ProductsContext';
 
 interface ShopSectionProps {
   searchQuery: string;
@@ -18,10 +18,13 @@ export const ShopSection: React.FC<ShopSectionProps> = ({
   const [sortBy, setSortBy] = useState<'featured' | 'price-low' | 'price-high' | 'rating'>('featured');
   const [onlyDiscounts, setOnlyDiscounts] = useState(false);
 
-  const categories = ['All', 'Creams', 'Face Packs', 'Toners & Lotions', 'Cleansers & Scrubs'];
+  const { products, loading, error, reload } = useProducts();
+  // The categories are whatever the ERP files its products under, so a new one appears here
+  // without a change to the site.
+  const categories = useMemo(() => ['All', ...Array.from(new Set(products.map((p) => p.category)))], [products]);
 
   const filteredProducts = useMemo(() => {
-    return PRODUCTS.filter((product) => {
+    return products.filter((product) => {
       const matchesCategory =
         selectedCategory === 'All' || product.category === selectedCategory;
       const matchesSearch =
@@ -37,7 +40,7 @@ export const ShopSection: React.FC<ShopSectionProps> = ({
       if (sortBy === 'rating') return b.rating - a.rating;
       return 0; // featured default
     });
-  }, [selectedCategory, searchQuery, onlyDiscounts, sortBy]);
+  }, [products, selectedCategory, searchQuery, onlyDiscounts, sortBy]);
 
   return (
     <section className="py-12 sm:py-20 bg-[#faf9f6]">
@@ -127,7 +130,17 @@ export const ShopSection: React.FC<ShopSectionProps> = ({
         </div>
 
         {/* Product Grid */}
-        {filteredProducts.length === 0 ? (
+        {loading ? (
+          <div className="text-center text-xs text-stone-500 py-16">Loading products...</div>
+        ) : error ? (
+          <div className="bg-white rounded-3xl p-12 text-center border border-stone-200 my-8 space-y-3">
+            <h3 className="text-lg font-bold text-stone-800">The shop could not be loaded</h3>
+            <p className="text-xs text-stone-500 max-w-sm mx-auto">{error}</p>
+            <button onClick={reload} className="mt-2 px-5 py-2 bg-[#1b3b22] text-white text-xs font-semibold rounded-full">
+              Try again
+            </button>
+          </div>
+        ) : filteredProducts.length === 0 ? (
           <div className="bg-white rounded-3xl p-12 text-center border border-stone-200 my-8 space-y-3">
             <Search className="w-10 h-10 text-stone-300 mx-auto" />
             <h3 className="text-lg font-bold text-stone-800">No products found</h3>

@@ -1,9 +1,17 @@
+/**
+ * A product as the site draws it. `id`, price and stock come from Vertik ERP (see
+ * services/api.ts); everything else falls back to CONTENT below when the ERP has nothing.
+ */
 export interface Product {
   id: string;
+  slug?: string;
   name: string;
   subtitle: string;
-  category: 'Creams' | 'Face Packs' | 'Toners & Lotions' | 'Cleansers & Scrubs';
+  category: string;
   price: number;
+  inStock?: boolean;
+  stock?: number;
+  weightGrams?: number;
   originalPrice?: number;
   rating: number;
   reviewCount: number;
@@ -18,7 +26,12 @@ export interface Product {
   usage: string;
 }
 
-export const PRODUCTS: Product[] = [
+/**
+ * The long copy for each product - benefits, ingredients, how to use - matched to the ERP's
+ * product by name. Prices and ids here are not used for selling: an order can only be placed for
+ * a product the ERP has published, at the ERP's price.
+ */
+export const CONTENT: Product[] = [
   {
     id: 'brightening-night-cream-50g',
     name: 'Brightening Night Cream',

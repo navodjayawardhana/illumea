@@ -5,19 +5,25 @@ import { api } from '../services/api';
 interface FooterProps {
   onNavClick: (tab: string) => void;
   onOpenPolicy: (type: 'refund' | 'terms' | 'privacy') => void;
-  onOpenAdmin?: () => void;
 }
 
-export const Footer: React.FC<FooterProps> = ({ onNavClick, onOpenPolicy, onOpenAdmin }) => {
+export const Footer: React.FC<FooterProps> = ({ onNavClick, onOpenPolicy }) => {
   const [email, setEmail] = useState('');
+  const [phone, setPhone] = useState('');
   const [subscribed, setSubscribed] = useState(false);
+  const [error, setError] = useState('');
 
   const handleSubscribe = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (email) {
-      await api.subscribeNewsletter(email);
+    setError('');
+    if (!email || !phone) return;
+    try {
+      await api.subscribeNewsletter(email, phone);
       setSubscribed(true);
       setEmail('');
+      setPhone('');
+    } catch (err) {
+      setError((err as Error).message);
     }
   };
 
@@ -48,7 +54,15 @@ export const Footer: React.FC<FooterProps> = ({ onNavClick, onOpenPolicy, onOpen
                   placeholder="Enter your email address..."
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  className="px-4 py-3 bg-white/10 border border-white/20 text-white placeholder-emerald-200/50 rounded-xl text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-amber-400 w-full sm:w-72"
+                  className="px-4 py-3 bg-white/10 border border-white/20 text-white placeholder-emerald-200/50 rounded-xl text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-amber-400 w-full sm:w-56"
+                />
+                <input
+                  type="tel"
+                  required
+                  placeholder="Phone number"
+                  value={phone}
+                  onChange={(e) => setPhone(e.target.value)}
+                  className="px-4 py-3 bg-white/10 border border-white/20 text-white placeholder-emerald-200/50 rounded-xl text-xs sm:text-sm focus:outline-none focus:ring-2 focus:ring-amber-400 w-full sm:w-40"
                 />
                 <button
                   type="submit"
@@ -56,6 +70,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavClick, onOpenPolicy, onOpen
                 >
                   Claim Exclusive Offer!
                 </button>
+                {error && <p className="text-xs text-red-300 sm:basis-full">{error}</p>}
               </form>
             ) : (
               <div className="bg-emerald-900/80 border border-emerald-500/40 px-5 py-3 rounded-xl text-amber-300 text-xs sm:text-sm font-semibold flex items-center gap-2">
@@ -243,17 +258,6 @@ export const Footer: React.FC<FooterProps> = ({ onNavClick, onOpenPolicy, onOpen
             <span>100% Herbal Guaranteed</span>
             <span>•</span>
             <span>Sri Lanka & Italy</span>
-            {onOpenAdmin && (
-              <>
-                <span>•</span>
-                <button
-                  onClick={onOpenAdmin}
-                  className="text-amber-400 hover:text-white transition font-medium"
-                >
-                  Admin Portal ⚙️
-                </button>
-              </>
-            )}
           </div>
         </div>
 

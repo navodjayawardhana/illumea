@@ -34,7 +34,7 @@ export const CartDrawer: React.FC = () => {
       message += `${index + 1}. *${item.product.name}* (${item.product.size})\n   Qty: ${item.quantity} x Rs. ${item.product.price.toLocaleString()} = Rs. ${(item.quantity * item.product.price).toLocaleString()}\n`;
     });
     message += `\n*Subtotal:* Rs. ${subtotal.toLocaleString()}`;
-    message += `\n*Delivery Fee:* ${deliveryFee === 0 ? 'FREE' : `Rs. ${deliveryFee.toLocaleString()}`}`;
+    message += `\n*Delivery Fee:* ${deliveryFee === null ? 'to be confirmed' : deliveryFee === 0 ? 'FREE' : `Rs. ${deliveryFee.toLocaleString()}`}`;
     message += `\n*Total Order Amount:* Rs. ${total.toLocaleString()}`;
     message += `\n\nPlease let me know how to proceed with payment & delivery details!`;
 
@@ -196,7 +196,9 @@ export const CartDrawer: React.FC = () => {
                 <div className="flex justify-between">
                   <span>Islandwide Delivery</span>
                   <span className="font-semibold">
-                    {deliveryFee === 0 ? (
+                    {deliveryFee === null ? (
+                      <span className="text-stone-500 font-normal">Calculated at checkout</span>
+                    ) : deliveryFee === 0 ? (
                       <span className="text-emerald-700 font-bold">FREE</span>
                     ) : (
                       `රු ${deliveryFee.toLocaleString()}`
