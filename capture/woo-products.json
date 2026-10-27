@@ -1,0 +1,1256 @@
+[
+ {
+  "id": 934,
+  "name": "Brightening  Night Cream ( 50g)",
+  "slug": "broghtning-night-cream-50g",
+  "parent": 0,
+  "type": "simple",
+  "variation": "",
+  "permalink": "https://illumea.lk/product/broghtning-night-cream-50g/",
+  "sku": "",
+  "short_description": "",
+  "description": "",
+  "on_sale": false,
+  "prices": {
+   "price": "377500",
+   "regular_price": "377500",
+   "sale_price": "377500",
+   "price_range": null,
+   "currency_code": "LKR",
+   "currency_symbol": "රු",
+   "currency_minor_unit": 2,
+   "currency_decimal_separator": ".",
+   "currency_thousand_separator": ",",
+   "currency_prefix": "රු",
+   "currency_suffix": ""
+  },
+  "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#xdbb;&#xdd4;</span>3,775.00</span>",
+  "average_rating": "0",
+  "review_count": 0,
+  "images": [
+   {
+    "id": 1060,
+    "src": "https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.26_c94d0d8d.jpg",
+    "thumbnail": "https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.26_c94d0d8d-300x300.jpg",
+    "srcset": "https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.26_c94d0d8d.jpg 1000w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.26_c94d0d8d-300x300.jpg 300w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.26_c94d0d8d-150x150.jpg 150w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.26_c94d0d8d-768x768.jpg 768w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.26_c94d0d8d-600x600.jpg 600w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.26_c94d0d8d-100x100.jpg 100w",
+    "sizes": "(max-width: 1000px) 100vw, 1000px",
+    "thumbnail_srcset": "https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.26_c94d0d8d-300x300.jpg 300w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.26_c94d0d8d-150x150.jpg 150w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.26_c94d0d8d-768x768.jpg 768w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.26_c94d0d8d-600x600.jpg 600w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.26_c94d0d8d-100x100.jpg 100w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.26_c94d0d8d.jpg 1000w",
+    "thumbnail_sizes": "(max-width: 300px) 100vw, 300px",
+    "name": "WhatsApp Image 2025-10-03 at 09.21.26_c94d0d8d",
+    "alt": ""
+   }
+  ],
+  "categories": [
+   {
+    "id": 22,
+    "name": "Skin Care",
+    "slug": "skin-care",
+    "link": "https://illumea.lk/product-category/skin-care/"
+   }
+  ],
+  "tags": [],
+  "brands": [
+   {
+    "id": 25,
+    "name": "Available in Sri Lanka and Italy",
+    "slug": "available-in-sri-lanka-and-italy",
+    "link": "https://illumea.lk/brand/available-in-sri-lanka-and-italy/"
+   }
+  ],
+  "attributes": [],
+  "variations": [],
+  "grouped_products": [],
+  "has_options": false,
+  "is_purchasable": true,
+  "is_in_stock": true,
+  "is_on_backorder": false,
+  "low_stock_remaining": null,
+  "stock_availability": {
+   "text": "",
+   "class": "in-stock"
+  },
+  "sold_individually": false,
+  "weight": "",
+  "dimensions": {
+   "length": "",
+   "width": "",
+   "height": ""
+  },
+  "formatted_weight": "N/A",
+  "formatted_dimensions": "N/A",
+  "add_to_cart": {
+   "text": "Add to cart",
+   "description": "Add to cart: &ldquo;Brightening  Night Cream ( 50g)&rdquo;",
+   "url": "/wp-json/wc/store/v1/products?per_page=100&#038;add-to-cart=934",
+   "single_text": "Add to cart",
+   "minimum": 1,
+   "maximum": 9999,
+   "multiple_of": 1
+  },
+  "is_password_protected": false,
+  "extensions": {},
+  "_links": {
+   "self": [
+    {
+     "href": "https://illumea.lk/wp-json/wc/store/v1/products/934",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://illumea.lk/wp-json/wc/store/v1/products"
+    }
+   ],
+   "related": [
+    {
+     "embeddable": true,
+     "href": "https://illumea.lk/wp-json/wc/store/v1/products?related=934&per_page=10"
+    }
+   ]
+  }
+ },
+ {
+  "id": 930,
+  "name": "Activated  Charcoal face pack (100g)",
+  "slug": "activated-charcoal-face-pack-100g",
+  "parent": 0,
+  "type": "simple",
+  "variation": "",
+  "permalink": "https://illumea.lk/product/activated-charcoal-face-pack-100g/",
+  "sku": "",
+  "short_description": "",
+  "description": "",
+  "on_sale": false,
+  "prices": {
+   "price": "300000",
+   "regular_price": "300000",
+   "sale_price": "300000",
+   "price_range": null,
+   "currency_code": "LKR",
+   "currency_symbol": "රු",
+   "currency_minor_unit": 2,
+   "currency_decimal_separator": ".",
+   "currency_thousand_separator": ",",
+   "currency_prefix": "රු",
+   "currency_suffix": ""
+  },
+  "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#xdbb;&#xdd4;</span>3,000.00</span>",
+  "average_rating": "5.00",
+  "review_count": 1,
+  "images": [
+   {
+    "id": 1072,
+    "src": "https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.29_0537fe56.jpg",
+    "thumbnail": "https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.29_0537fe56-300x300.jpg",
+    "srcset": "https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.29_0537fe56.jpg 1000w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.29_0537fe56-300x300.jpg 300w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.29_0537fe56-150x150.jpg 150w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.29_0537fe56-768x768.jpg 768w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.29_0537fe56-600x600.jpg 600w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.29_0537fe56-100x100.jpg 100w",
+    "sizes": "(max-width: 1000px) 100vw, 1000px",
+    "thumbnail_srcset": "https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.29_0537fe56-300x300.jpg 300w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.29_0537fe56-150x150.jpg 150w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.29_0537fe56-768x768.jpg 768w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.29_0537fe56-600x600.jpg 600w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.29_0537fe56-100x100.jpg 100w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.29_0537fe56.jpg 1000w",
+    "thumbnail_sizes": "(max-width: 300px) 100vw, 300px",
+    "name": "WhatsApp Image 2025-10-03 at 09.21.29_0537fe56",
+    "alt": ""
+   }
+  ],
+  "categories": [
+   {
+    "id": 22,
+    "name": "Skin Care",
+    "slug": "skin-care",
+    "link": "https://illumea.lk/product-category/skin-care/"
+   }
+  ],
+  "tags": [],
+  "brands": [
+   {
+    "id": 25,
+    "name": "Available in Sri Lanka and Italy",
+    "slug": "available-in-sri-lanka-and-italy",
+    "link": "https://illumea.lk/brand/available-in-sri-lanka-and-italy/"
+   }
+  ],
+  "attributes": [],
+  "variations": [],
+  "grouped_products": [],
+  "has_options": false,
+  "is_purchasable": true,
+  "is_in_stock": true,
+  "is_on_backorder": false,
+  "low_stock_remaining": null,
+  "stock_availability": {
+   "text": "",
+   "class": "in-stock"
+  },
+  "sold_individually": false,
+  "weight": "",
+  "dimensions": {
+   "length": "",
+   "width": "",
+   "height": ""
+  },
+  "formatted_weight": "N/A",
+  "formatted_dimensions": "N/A",
+  "add_to_cart": {
+   "text": "Add to cart",
+   "description": "Add to cart: &ldquo;Activated  Charcoal face pack (100g)&rdquo;",
+   "url": "/wp-json/wc/store/v1/products?per_page=100&#038;add-to-cart=930",
+   "single_text": "Add to cart",
+   "minimum": 1,
+   "maximum": 9999,
+   "multiple_of": 1
+  },
+  "is_password_protected": false,
+  "extensions": {},
+  "_links": {
+   "self": [
+    {
+     "href": "https://illumea.lk/wp-json/wc/store/v1/products/930",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://illumea.lk/wp-json/wc/store/v1/products"
+    }
+   ],
+   "related": [
+    {
+     "embeddable": true,
+     "href": "https://illumea.lk/wp-json/wc/store/v1/products?related=930&per_page=10"
+    }
+   ]
+  }
+ },
+ {
+  "id": 564,
+  "name": "Illumea Anti-Aging Cream 100ml",
+  "slug": "illumea-anti-aging-cream",
+  "parent": 0,
+  "type": "simple",
+  "variation": "",
+  "permalink": "https://illumea.lk/product/illumea-anti-aging-cream/",
+  "sku": "",
+  "short_description": "<p><span style=\"font-weight: 400\">Reclaim youthful, radiant skin with Illumea’s Anti-Aging Cream, a sophisticated formula designed to address the visible signs of aging while enhancing your skin’s natural beauty. This luxurious cream combines a blend of advanced ingredients to deliver comprehensive anti-aging benefits, promoting a smoother, more youthful complexion.</span></p>",
+  "description": "<p><b>Key Active Ingredients:</b></p>\n<ul>\n<li style=\"font-weight: 400\"><b>Ethyl Ascorbic Acid:</b><span style=\"font-weight: 400\"> A potent form of Vitamin C, Ethyl Ascorbic Acid brightens and revitalizes the skin while defending against environmental damage. It helps to reduce the appearance of dark spots and enhances overall radiance.</span></li>\n<li style=\"font-weight: 400\"><b>Alpha Arbutin:</b><span style=\"font-weight: 400\"> This natural brightener inhibits melanin production, helping to fade age spots and hyperpigmentation, resulting in a more even and luminous skin tone.</span></li>\n<li style=\"font-weight: 400\"><b>Niacinamide (Vitamin B3):</b><span style=\"font-weight: 400\"> Known for its ability to improve skin texture and tone, Niacinamide reduces the appearance of fine lines, enhances radiance, and strengthens the skin barrier for a smoother, more youthful look.</span></li>\n<li style=\"font-weight: 400\"><b>Kojic Di Palmitate:</b><span style=\"font-weight: 400\"> Renowned for its skin-lightening properties, Kojic Di Palmitate targets hyperpigmentation and dark spots, offering a safer alternative to hydroquinone for a clearer, more even complexion.</span></li>\n<li style=\"font-weight: 400\"><b>Vitamin A Acetate:</b><span style=\"font-weight: 400\"> Also known as Retinyl Acetate, Vitamin A promotes cell turnover and collagen synthesis, reducing the appearance of fine lines and wrinkles while improving skin texture and elasticity.</span></li>\n<li style=\"font-weight: 400\"><b>Lactic Acid:</b><span style=\"font-weight: 400\"> A gentle exfoliant, Lactic Acid helps to remove dead skin cells and improve hydration, revealing a brighter, more refined complexion.</span></li>\n<li style=\"font-weight: 400\"><b>Vitamin E:</b><span style=\"font-weight: 400\"> A powerful antioxidant that protects the skin from oxidative stress, Vitamin E supports moisture retention and enhances skin softness, contributing to a more youthful appearance.</span></li>\n<li style=\"font-weight: 400\"><b>Palmitoyl Tripeptide-5:</b><span style=\"font-weight: 400\"> This advanced peptide stimulates collagen production, improving skin firmness and reducing the appearance of fine lines and wrinkles for a smoother, more youthful look.</span></li>\n<li style=\"font-weight: 400\"><b>Aloe Vera:</b><span style=\"font-weight: 400\"> Known for its soothing and hydrating properties, Aloe Vera calms and nourishes the skin, providing additional comfort and support.</span></li>\n<li style=\"font-weight: 400\"><b>Glycolic Acid:</b><span style=\"font-weight: 400\"> An Alpha Hydroxy Acid (AHA) that exfoliates and brightens the skin by removing dead cells, Glycolic Acid enhances skin clarity and promotes a more even tone.</span></li>\n</ul>\n<p><span style=\"font-weight: 400\">Experience the transformative effects of Illumea’s Anti-Aging Cream, where cutting-edge ingredients work together to rejuvenate, brighten, and smooth your skin. Embrace a youthful, radiant complexion and enjoy the confidence of beautifully refreshed skin.</span></p>",
+  "on_sale": false,
+  "prices": {
+   "price": "450000",
+   "regular_price": "450000",
+   "sale_price": "450000",
+   "price_range": null,
+   "currency_code": "LKR",
+   "currency_symbol": "රු",
+   "currency_minor_unit": 2,
+   "currency_decimal_separator": ".",
+   "currency_thousand_separator": ",",
+   "currency_prefix": "රු",
+   "currency_suffix": ""
+  },
+  "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#xdbb;&#xdd4;</span>4,500.00</span>",
+  "average_rating": "5.00",
+  "review_count": 1,
+  "images": [
+   {
+    "id": 1063,
+    "src": "https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.27_ea14ca41.jpg",
+    "thumbnail": "https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.27_ea14ca41-300x300.jpg",
+    "srcset": "https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.27_ea14ca41.jpg 1000w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.27_ea14ca41-300x300.jpg 300w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.27_ea14ca41-150x150.jpg 150w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.27_ea14ca41-768x768.jpg 768w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.27_ea14ca41-600x600.jpg 600w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.27_ea14ca41-100x100.jpg 100w",
+    "sizes": "(max-width: 1000px) 100vw, 1000px",
+    "thumbnail_srcset": "https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.27_ea14ca41-300x300.jpg 300w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.27_ea14ca41-150x150.jpg 150w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.27_ea14ca41-768x768.jpg 768w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.27_ea14ca41-600x600.jpg 600w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.27_ea14ca41-100x100.jpg 100w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.27_ea14ca41.jpg 1000w",
+    "thumbnail_sizes": "(max-width: 300px) 100vw, 300px",
+    "name": "WhatsApp Image 2025-10-03 at 09.21.27_ea14ca41",
+    "alt": ""
+   }
+  ],
+  "categories": [
+   {
+    "id": 22,
+    "name": "Skin Care",
+    "slug": "skin-care",
+    "link": "https://illumea.lk/product-category/skin-care/"
+   }
+  ],
+  "tags": [],
+  "brands": [
+   {
+    "id": 25,
+    "name": "Available in Sri Lanka and Italy",
+    "slug": "available-in-sri-lanka-and-italy",
+    "link": "https://illumea.lk/brand/available-in-sri-lanka-and-italy/"
+   }
+  ],
+  "attributes": [],
+  "variations": [],
+  "grouped_products": [],
+  "has_options": false,
+  "is_purchasable": true,
+  "is_in_stock": true,
+  "is_on_backorder": false,
+  "low_stock_remaining": null,
+  "stock_availability": {
+   "text": "",
+   "class": "in-stock"
+  },
+  "sold_individually": false,
+  "weight": "",
+  "dimensions": {
+   "length": "",
+   "width": "",
+   "height": ""
+  },
+  "formatted_weight": "N/A",
+  "formatted_dimensions": "N/A",
+  "add_to_cart": {
+   "text": "Add to cart",
+   "description": "Add to cart: &ldquo;Illumea Anti-Aging Cream 100ml&rdquo;",
+   "url": "/wp-json/wc/store/v1/products?per_page=100&#038;add-to-cart=564",
+   "single_text": "Add to cart",
+   "minimum": 1,
+   "maximum": 9999,
+   "multiple_of": 1
+  },
+  "is_password_protected": false,
+  "extensions": {},
+  "_links": {
+   "self": [
+    {
+     "href": "https://illumea.lk/wp-json/wc/store/v1/products/564",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://illumea.lk/wp-json/wc/store/v1/products"
+    }
+   ],
+   "related": [
+    {
+     "embeddable": true,
+     "href": "https://illumea.lk/wp-json/wc/store/v1/products?related=564&per_page=10"
+    }
+   ]
+  }
+ },
+ {
+  "id": 559,
+  "name": "Illumea Pigment Cure Cream 50g",
+  "slug": "illumea-pigment-cure-cream",
+  "parent": 0,
+  "type": "simple",
+  "variation": "",
+  "permalink": "https://illumea.lk/product/illumea-pigment-cure-cream/",
+  "sku": "",
+  "short_description": "<p><span style=\"font-weight: 400\">Achieve a flawless, even complexion with Illumea’s Pigment Cure Cream, expertly formulated to target and diminish hyperpigmentation. This advanced cream combines potent ingredients to address dark spots, age spots, and uneven skin tone, revealing a clearer, more radiant complexion.</span></p>",
+  "description": "<p><b>Key Active Ingredients:</b></p>\n<ul>\n<li style=\"font-weight: 400\"><b>Ethyl Ascorbic Acid:</b><span style=\"font-weight: 400\"> A potent form of Vitamin C, Ethyl Ascorbic Acid brightens the skin and reduces the appearance of dark spots while protecting against environmental stressors.</span></li>\n<li style=\"font-weight: 400\"><b>Alpha Arbutin:</b><span style=\"font-weight: 400\"> This natural skin brightener helps to inhibit melanin production, improving the appearance of pigmentation and promoting an even skin tone.</span></li>\n<li style=\"font-weight: 400\"><b>Niacinamide (Vitamin B3):</b><span style=\"font-weight: 400\"> Known for its ability to even out skin tone, reduce redness, and diminish dark spots, Niacinamide enhances skin clarity and radiance.</span></li>\n<li style=\"font-weight: 400\"><b>Kojic Di Palmitate:</b><span style=\"font-weight: 400\"> This effective skin-lightening ingredient helps to reduce hyperpigmentation and dark spots, offering a safer alternative to hydroquinone.</span></li>\n<li style=\"font-weight: 400\"><b>Vitamin A Acetate:</b><span style=\"font-weight: 400\"> Promotes skin cell turnover and collagen production, improving texture and reducing the appearance of fine lines and uneven pigmentation.</span></li>\n<li style=\"font-weight: 400\"><b>Lactic Acid:</b><span style=\"font-weight: 400\"> A gentle exfoliant that helps to smooth and brighten the skin by removing dead cells and promoting a more even complexion.</span></li>\n<li style=\"font-weight: 400\"><b>Vitamin E:</b><span style=\"font-weight: 400\"> A powerful antioxidant that protects the skin and supports hydration, contributing to a softer and more resilient texture.</span></li>\n<li style=\"font-weight: 400\"><b>Licorice Extract:</b><span style=\"font-weight: 400\"> Known for its brightening and anti-inflammatory properties, Licorice Extract helps to reduce pigmentation and even out skin tone.</span></li>\n<li style=\"font-weight: 400\"><b>Glycolic Acid:</b><span style=\"font-weight: 400\"> This exfoliant removes dead skin cells and promotes cell turnover, enhancing skin brightness and clarity.</span></li>\n<li style=\"font-weight: 400\"><b>Tranexamic Acid:</b><span style=\"font-weight: 400\"> Known for its ability to reduce melanin production, Tranexamic Acid helps to improve the appearance of pigmentation and promote a more even skin tone.</span></li>\n<li style=\"font-weight: 400\"><b>Aloe Vera:</b><span style=\"font-weight: 400\"> Soothes and hydrates the skin, providing additional comfort and support while addressing pigmentation concerns.</span></li>\n</ul>\n<p><span style=\"font-weight: 400\">Transform your complexion with Illumea’s Pigment Cure Cream, and reveal a clearer, more radiant skin tone with consistent use.</span></p>",
+  "on_sale": false,
+  "prices": {
+   "price": "790000",
+   "regular_price": "790000",
+   "sale_price": "790000",
+   "price_range": null,
+   "currency_code": "LKR",
+   "currency_symbol": "රු",
+   "currency_minor_unit": 2,
+   "currency_decimal_separator": ".",
+   "currency_thousand_separator": ",",
+   "currency_prefix": "රු",
+   "currency_suffix": ""
+  },
+  "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#xdbb;&#xdd4;</span>7,900.00</span>",
+  "average_rating": "0",
+  "review_count": 0,
+  "images": [
+   {
+    "id": 1083,
+    "src": "https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.07_4c1f48af.jpg",
+    "thumbnail": "https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.07_4c1f48af-300x300.jpg",
+    "srcset": "https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.07_4c1f48af.jpg 1080w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.07_4c1f48af-300x300.jpg 300w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.07_4c1f48af-1024x1024.jpg 1024w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.07_4c1f48af-150x150.jpg 150w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.07_4c1f48af-768x768.jpg 768w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.07_4c1f48af-600x600.jpg 600w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.07_4c1f48af-100x100.jpg 100w",
+    "sizes": "(max-width: 1080px) 100vw, 1080px",
+    "thumbnail_srcset": "https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.07_4c1f48af-300x300.jpg 300w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.07_4c1f48af-1024x1024.jpg 1024w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.07_4c1f48af-150x150.jpg 150w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.07_4c1f48af-768x768.jpg 768w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.07_4c1f48af-600x600.jpg 600w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.07_4c1f48af-100x100.jpg 100w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.07_4c1f48af.jpg 1080w",
+    "thumbnail_sizes": "(max-width: 300px) 100vw, 300px",
+    "name": "WhatsApp Image 2025-10-07 at 11.00.07_4c1f48af",
+    "alt": ""
+   }
+  ],
+  "categories": [
+   {
+    "id": 22,
+    "name": "Skin Care",
+    "slug": "skin-care",
+    "link": "https://illumea.lk/product-category/skin-care/"
+   }
+  ],
+  "tags": [],
+  "brands": [
+   {
+    "id": 25,
+    "name": "Available in Sri Lanka and Italy",
+    "slug": "available-in-sri-lanka-and-italy",
+    "link": "https://illumea.lk/brand/available-in-sri-lanka-and-italy/"
+   }
+  ],
+  "attributes": [],
+  "variations": [],
+  "grouped_products": [],
+  "has_options": false,
+  "is_purchasable": true,
+  "is_in_stock": true,
+  "is_on_backorder": false,
+  "low_stock_remaining": null,
+  "stock_availability": {
+   "text": "",
+   "class": "in-stock"
+  },
+  "sold_individually": false,
+  "weight": "",
+  "dimensions": {
+   "length": "",
+   "width": "",
+   "height": ""
+  },
+  "formatted_weight": "N/A",
+  "formatted_dimensions": "N/A",
+  "add_to_cart": {
+   "text": "Add to cart",
+   "description": "Add to cart: &ldquo;Illumea Pigment Cure Cream 50g&rdquo;",
+   "url": "/wp-json/wc/store/v1/products?per_page=100&#038;add-to-cart=559",
+   "single_text": "Add to cart",
+   "minimum": 1,
+   "maximum": 9999,
+   "multiple_of": 1
+  },
+  "is_password_protected": false,
+  "extensions": {},
+  "_links": {
+   "self": [
+    {
+     "href": "https://illumea.lk/wp-json/wc/store/v1/products/559",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://illumea.lk/wp-json/wc/store/v1/products"
+    }
+   ],
+   "related": [
+    {
+     "embeddable": true,
+     "href": "https://illumea.lk/wp-json/wc/store/v1/products?related=559&per_page=10"
+    }
+   ]
+  }
+ },
+ {
+  "id": 554,
+  "name": "Illumea Moisturizing Body Lotion 300ml",
+  "slug": "illumea-moisturizing-body-lotion",
+  "parent": 0,
+  "type": "simple",
+  "variation": "",
+  "permalink": "https://illumea.lk/product/illumea-moisturizing-body-lotion/",
+  "sku": "",
+  "short_description": "<p><span style=\"font-weight: 400\">Pamper your skin with Illumea’s Moisturizing Body Lotion, housed in a 300ml bottle with a luxurious gold pump for a touch of elegance. This rich, hydrating lotion is formulated to provide deep, lasting moisture while leaving your skin feeling soft and smooth.</span></p>",
+  "description": "<p><b>Key Active Ingredients:</b></p>\n<ul>\n<li style=\"font-weight: 400\"><b>Cocoa Butter:</b><span style=\"font-weight: 400\"> Renowned for its intense moisturizing properties, Cocoa Butter deeply hydrates and nourishes the skin, improving elasticity and promoting a supple, smooth texture.</span></li>\n<li style=\"font-weight: 400\"><b>Shea Butter:</b><span style=\"font-weight: 400\"> This natural emollient provides rich moisture and helps to soothe and protect the skin. Shea Butter is known for its ability to restore and maintain skin’s natural balance.</span></li>\n<li style=\"font-weight: 400\"><b>Mango Butter:</b><span style=\"font-weight: 400\"> With its high content of vitamins and fatty acids, Mango Butter helps to deeply moisturize and revitalize the skin. It supports skin elasticity and imparts a radiant glow.</span></li>\n<li style=\"font-weight: 400\"><b>Sodium PCA:</b><span style=\"font-weight: 400\"> A powerful hydrating agent, Sodium PCA attracts and retains moisture in the skin, enhancing hydration and softness.</span></li>\n<li style=\"font-weight: 400\"><b>Aquaxyl:</b><span style=\"font-weight: 400\"> This advanced ingredient helps to boost the skin’s hydration levels and reinforce its barrier function, ensuring long-lasting moisture and comfort.</span></li>\n<li style=\"font-weight: 400\"><b>Vaslin:</b><span style=\"font-weight: 400\"> Known for its skin-conditioning properties, Vaslin enhances the skin&#8217;s smoothness and helps to lock in moisture for a long-lasting hydrating effect.</span></li>\n</ul>\n<p><span style=\"font-weight: 400\">Indulge in the ultimate hydration with Illumea’s Moisturizing Body Lotion, and experience beautifully soft, smooth, and radiant skin with every application.</span></p>",
+  "on_sale": false,
+  "prices": {
+   "price": "460000",
+   "regular_price": "460000",
+   "sale_price": "460000",
+   "price_range": null,
+   "currency_code": "LKR",
+   "currency_symbol": "රු",
+   "currency_minor_unit": 2,
+   "currency_decimal_separator": ".",
+   "currency_thousand_separator": ",",
+   "currency_prefix": "රු",
+   "currency_suffix": ""
+  },
+  "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#xdbb;&#xdd4;</span>4,600.00</span>",
+  "average_rating": "0",
+  "review_count": 0,
+  "images": [
+   {
+    "id": 1080,
+    "src": "https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.05_5947221c.jpg",
+    "thumbnail": "https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.05_5947221c-300x300.jpg",
+    "srcset": "https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.05_5947221c.jpg 1080w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.05_5947221c-300x300.jpg 300w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.05_5947221c-1024x1024.jpg 1024w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.05_5947221c-150x150.jpg 150w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.05_5947221c-768x768.jpg 768w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.05_5947221c-600x600.jpg 600w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.05_5947221c-100x100.jpg 100w",
+    "sizes": "(max-width: 1080px) 100vw, 1080px",
+    "thumbnail_srcset": "https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.05_5947221c-300x300.jpg 300w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.05_5947221c-1024x1024.jpg 1024w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.05_5947221c-150x150.jpg 150w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.05_5947221c-768x768.jpg 768w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.05_5947221c-600x600.jpg 600w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.05_5947221c-100x100.jpg 100w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.05_5947221c.jpg 1080w",
+    "thumbnail_sizes": "(max-width: 300px) 100vw, 300px",
+    "name": "WhatsApp Image 2025-10-07 at 11.00.05_5947221c",
+    "alt": ""
+   }
+  ],
+  "categories": [
+   {
+    "id": 22,
+    "name": "Skin Care",
+    "slug": "skin-care",
+    "link": "https://illumea.lk/product-category/skin-care/"
+   }
+  ],
+  "tags": [],
+  "brands": [
+   {
+    "id": 25,
+    "name": "Available in Sri Lanka and Italy",
+    "slug": "available-in-sri-lanka-and-italy",
+    "link": "https://illumea.lk/brand/available-in-sri-lanka-and-italy/"
+   }
+  ],
+  "attributes": [],
+  "variations": [],
+  "grouped_products": [],
+  "has_options": false,
+  "is_purchasable": true,
+  "is_in_stock": true,
+  "is_on_backorder": false,
+  "low_stock_remaining": null,
+  "stock_availability": {
+   "text": "",
+   "class": "in-stock"
+  },
+  "sold_individually": false,
+  "weight": "",
+  "dimensions": {
+   "length": "",
+   "width": "",
+   "height": ""
+  },
+  "formatted_weight": "N/A",
+  "formatted_dimensions": "N/A",
+  "add_to_cart": {
+   "text": "Add to cart",
+   "description": "Add to cart: &ldquo;Illumea Moisturizing Body Lotion 300ml&rdquo;",
+   "url": "/wp-json/wc/store/v1/products?per_page=100&#038;add-to-cart=554",
+   "single_text": "Add to cart",
+   "minimum": 1,
+   "maximum": 9999,
+   "multiple_of": 1
+  },
+  "is_password_protected": false,
+  "extensions": {},
+  "_links": {
+   "self": [
+    {
+     "href": "https://illumea.lk/wp-json/wc/store/v1/products/554",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://illumea.lk/wp-json/wc/store/v1/products"
+    }
+   ],
+   "related": [
+    {
+     "embeddable": true,
+     "href": "https://illumea.lk/wp-json/wc/store/v1/products?related=554&per_page=10"
+    }
+   ]
+  }
+ },
+ {
+  "id": 549,
+  "name": "Illumea Fairness and Sun Protective Day Cream 50g",
+  "slug": "illumea-fairness-and-sun-protective-day-cream",
+  "parent": 0,
+  "type": "simple",
+  "variation": "",
+  "permalink": "https://illumea.lk/product/illumea-fairness-and-sun-protective-day-cream/",
+  "sku": "",
+  "short_description": "<p><span style=\"font-weight: 400\">Illuminate your complexion and safeguard your skin with Illumea’s Fairness and Sun Protective Day Cream, a sophisticated formulation designed to provide advanced sun protection while enhancing your skin’s natural radiance. This all-in-one day cream combines potent ingredients to offer comprehensive skincare benefits, ensuring your skin stays luminous, protected, and youthful.</span></p>",
+  "description": "<p><b>Key Active Ingredients:</b></p>\n<ul>\n<li style=\"font-weight: 400\"><b>Avobenzone:</b><span style=\"font-weight: 400\"> A leading broad-spectrum sunscreen agent, Avobenzone offers effective protection against UVA rays, helping to prevent sun-induced aging and skin damage. When used as directed, it ensures your skin remains shielded from harmful sun exposure.</span></li>\n<li style=\"font-weight: 400\"><b>Alpha Arbutin:</b><span style=\"font-weight: 400\"> Derived from the bearberry plant, Alpha Arbutin is a natural skin brightener and antioxidant. It helps to reduce melanin production, improving the appearance of age spots, freckles, melasma, and post-inflammatory pigmentation for a more even skin tone.</span></li>\n<li style=\"font-weight: 400\"><b>Ethyl Ascorbic Acid:</b><span style=\"font-weight: 400\"> This powerful form of Vitamin C acts as a potent antioxidant, combating free radicals and protecting the skin from environmental stressors. It helps to prevent premature aging and enhance overall skin brightness.</span></li>\n<li style=\"font-weight: 400\"><b>Kojic Di Palmitate:</b><span style=\"font-weight: 400\"> Renowned for its skin-lightening properties, Kojic Di Palmitate reduces dark spots and hyperpigmentation, offering a safer alternative to hydroquinone for a clearer, more even complexion.</span></li>\n<li style=\"font-weight: 400\"><b>Niacinamide (Vitamin B3):</b><span style=\"font-weight: 400\"> This versatile ingredient improves skin texture by minimizing enlarged pores, tightening lax skin, and reducing fine lines and wrinkles. Niacinamide also enhances uneven skin tone and boosts radiance, making your complexion appear healthier and more vibrant.</span></li>\n<li style=\"font-weight: 400\"><b>Lactic Acid:</b><span style=\"font-weight: 400\"> As a gentle exfoliant, Lactic Acid helps to smooth and brighten the skin by removing dead cells and improving hydration. It contributes to a softer, more refined skin surface.</span></li>\n<li style=\"font-weight: 400\"><b>OMC (Octyl Methoxycinnamate) &amp; Tinorsorb-M:</b><span style=\"font-weight: 400\"> These advanced sun filters offer broad-spectrum UV protection, shielding your skin from both UVA and UVB rays to prevent sunburn and premature aging.</span></li>\n<li style=\"font-weight: 400\"><b>Benzophenone-4:</b><span style=\"font-weight: 400\"> This UV filter helps to protect the skin from the harmful effects of sunlight, contributing to the overall effectiveness of the sunscreen.</span></li>\n<li style=\"font-weight: 400\"><b>Aloe Vera:</b><span style=\"font-weight: 400\"> Known for its soothing and hydrating properties, Aloe Vera calms and moisturizes the skin while providing additional protection and comfort.</span></li>\n</ul>\n<p><span style=\"font-weight: 400\">Transform your daily skincare routine with Illumea’s Fairness and Sun Protective Day Cream, where advanced sun protection meets skin-brightening technology. Enjoy a luminous, protected complexion every day, and embrace your natural radiance with confidence.</span></p>",
+  "on_sale": false,
+  "prices": {
+   "price": "360000",
+   "regular_price": "360000",
+   "sale_price": "360000",
+   "price_range": null,
+   "currency_code": "LKR",
+   "currency_symbol": "රු",
+   "currency_minor_unit": 2,
+   "currency_decimal_separator": ".",
+   "currency_thousand_separator": ",",
+   "currency_prefix": "රු",
+   "currency_suffix": ""
+  },
+  "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#xdbb;&#xdd4;</span>3,600.00</span>",
+  "average_rating": "0",
+  "review_count": 0,
+  "images": [
+   {
+    "id": 1081,
+    "src": "https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.06_8f90bb2e.jpg",
+    "thumbnail": "https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.06_8f90bb2e-300x300.jpg",
+    "srcset": "https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.06_8f90bb2e.jpg 1080w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.06_8f90bb2e-300x300.jpg 300w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.06_8f90bb2e-1024x1024.jpg 1024w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.06_8f90bb2e-150x150.jpg 150w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.06_8f90bb2e-768x768.jpg 768w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.06_8f90bb2e-600x600.jpg 600w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.06_8f90bb2e-100x100.jpg 100w",
+    "sizes": "(max-width: 1080px) 100vw, 1080px",
+    "thumbnail_srcset": "https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.06_8f90bb2e-300x300.jpg 300w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.06_8f90bb2e-1024x1024.jpg 1024w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.06_8f90bb2e-150x150.jpg 150w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.06_8f90bb2e-768x768.jpg 768w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.06_8f90bb2e-600x600.jpg 600w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.06_8f90bb2e-100x100.jpg 100w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.06_8f90bb2e.jpg 1080w",
+    "thumbnail_sizes": "(max-width: 300px) 100vw, 300px",
+    "name": "WhatsApp Image 2025-10-07 at 11.00.06_8f90bb2e",
+    "alt": ""
+   }
+  ],
+  "categories": [
+   {
+    "id": 22,
+    "name": "Skin Care",
+    "slug": "skin-care",
+    "link": "https://illumea.lk/product-category/skin-care/"
+   }
+  ],
+  "tags": [],
+  "brands": [
+   {
+    "id": 25,
+    "name": "Available in Sri Lanka and Italy",
+    "slug": "available-in-sri-lanka-and-italy",
+    "link": "https://illumea.lk/brand/available-in-sri-lanka-and-italy/"
+   }
+  ],
+  "attributes": [],
+  "variations": [],
+  "grouped_products": [],
+  "has_options": false,
+  "is_purchasable": true,
+  "is_in_stock": true,
+  "is_on_backorder": false,
+  "low_stock_remaining": null,
+  "stock_availability": {
+   "text": "",
+   "class": "in-stock"
+  },
+  "sold_individually": false,
+  "weight": "",
+  "dimensions": {
+   "length": "",
+   "width": "",
+   "height": ""
+  },
+  "formatted_weight": "N/A",
+  "formatted_dimensions": "N/A",
+  "add_to_cart": {
+   "text": "Add to cart",
+   "description": "Add to cart: &ldquo;Illumea Fairness and Sun Protective Day Cream 50g&rdquo;",
+   "url": "/wp-json/wc/store/v1/products?per_page=100&#038;add-to-cart=549",
+   "single_text": "Add to cart",
+   "minimum": 1,
+   "maximum": 9999,
+   "multiple_of": 1
+  },
+  "is_password_protected": false,
+  "extensions": {},
+  "_links": {
+   "self": [
+    {
+     "href": "https://illumea.lk/wp-json/wc/store/v1/products/549",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://illumea.lk/wp-json/wc/store/v1/products"
+    }
+   ],
+   "related": [
+    {
+     "embeddable": true,
+     "href": "https://illumea.lk/wp-json/wc/store/v1/products?related=549&per_page=10"
+    }
+   ]
+  }
+ },
+ {
+  "id": 531,
+  "name": "Illumea Hydrating Toner",
+  "slug": "illumea-hydrating-toner",
+  "parent": 0,
+  "type": "simple",
+  "variation": "",
+  "permalink": "https://illumea.lk/product/illumea-hydrating-toner/",
+  "sku": "",
+  "short_description": "<p><span style=\"font-weight: 400\">Revitalize and perfect your skin with Illumea’s Hydrating Toner, a luxurious formula crafted to balance, soothe, and hydrate your complexion. Infused with a blend of premium ingredients, this toner prepares your skin for optimal absorption of subsequent skincare products while enhancing its natural glow.</span></p>",
+  "description": "<p><b>Key Active Ingredients:</b></p>\n<ul>\n<li style=\"font-weight: 400\"><b>Allantoin:</b><span style=\"font-weight: 400\"> Known for its soothing and anti-inflammatory properties, Allantoin helps to calm and protect the skin. It promotes healing and alleviates irritation, ensuring a gentle and comfortable toning experience.</span></li>\n<li style=\"font-weight: 400\"><b>Aloe Vera:</b><span style=\"font-weight: 400\"> Renowned for its hydrating and calming effects, Aloe Vera provides deep moisture while soothing and cooling the skin. It helps to reduce redness and inflammation, leaving your skin feeling refreshed and balanced.</span></li>\n<li style=\"font-weight: 400\"><b>Hyaluronic Acid:</b><span style=\"font-weight: 400\"> A powerful hydrator, Hyaluronic Acid attracts and retains moisture in the skin, delivering a plump and dewy appearance. It helps to improve skin elasticity and reduce the appearance of fine lines, promoting a youthful and radiant complexion.</span></li>\n</ul>\n<p><span style=\"font-weight: 400\">Elevate your skincare routine with Illumea’s Hydrating Toner, where advanced hydration meets soothing care. Each application helps to balance, refresh, and rejuvenate your skin, ensuring a smooth and glowing finish.</span></p>",
+  "on_sale": false,
+  "prices": {
+   "price": "135000",
+   "regular_price": "135000",
+   "sale_price": "135000",
+   "price_range": null,
+   "currency_code": "LKR",
+   "currency_symbol": "රු",
+   "currency_minor_unit": 2,
+   "currency_decimal_separator": ".",
+   "currency_thousand_separator": ",",
+   "currency_prefix": "රු",
+   "currency_suffix": ""
+  },
+  "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#xdbb;&#xdd4;</span>1,350.00</span>",
+  "average_rating": "0",
+  "review_count": 0,
+  "images": [
+   {
+    "id": 1082,
+    "src": "https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.06_dbe5060c.jpg",
+    "thumbnail": "https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.06_dbe5060c-300x300.jpg",
+    "srcset": "https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.06_dbe5060c.jpg 1080w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.06_dbe5060c-300x300.jpg 300w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.06_dbe5060c-1024x1024.jpg 1024w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.06_dbe5060c-150x150.jpg 150w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.06_dbe5060c-768x768.jpg 768w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.06_dbe5060c-600x600.jpg 600w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.06_dbe5060c-100x100.jpg 100w",
+    "sizes": "(max-width: 1080px) 100vw, 1080px",
+    "thumbnail_srcset": "https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.06_dbe5060c-300x300.jpg 300w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.06_dbe5060c-1024x1024.jpg 1024w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.06_dbe5060c-150x150.jpg 150w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.06_dbe5060c-768x768.jpg 768w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.06_dbe5060c-600x600.jpg 600w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.06_dbe5060c-100x100.jpg 100w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.06_dbe5060c.jpg 1080w",
+    "thumbnail_sizes": "(max-width: 300px) 100vw, 300px",
+    "name": "WhatsApp Image 2025-10-07 at 11.00.06_dbe5060c",
+    "alt": ""
+   }
+  ],
+  "categories": [
+   {
+    "id": 22,
+    "name": "Skin Care",
+    "slug": "skin-care",
+    "link": "https://illumea.lk/product-category/skin-care/"
+   }
+  ],
+  "tags": [],
+  "brands": [
+   {
+    "id": 25,
+    "name": "Available in Sri Lanka and Italy",
+    "slug": "available-in-sri-lanka-and-italy",
+    "link": "https://illumea.lk/brand/available-in-sri-lanka-and-italy/"
+   }
+  ],
+  "attributes": [],
+  "variations": [],
+  "grouped_products": [],
+  "has_options": false,
+  "is_purchasable": true,
+  "is_in_stock": true,
+  "is_on_backorder": false,
+  "low_stock_remaining": null,
+  "stock_availability": {
+   "text": "",
+   "class": "in-stock"
+  },
+  "sold_individually": false,
+  "weight": "",
+  "dimensions": {
+   "length": "",
+   "width": "",
+   "height": ""
+  },
+  "formatted_weight": "N/A",
+  "formatted_dimensions": "N/A",
+  "add_to_cart": {
+   "text": "Add to cart",
+   "description": "Add to cart: &ldquo;Illumea Hydrating Toner&rdquo;",
+   "url": "/wp-json/wc/store/v1/products?per_page=100&#038;add-to-cart=531",
+   "single_text": "Add to cart",
+   "minimum": 1,
+   "maximum": 9999,
+   "multiple_of": 1
+  },
+  "is_password_protected": false,
+  "extensions": {},
+  "_links": {
+   "self": [
+    {
+     "href": "https://illumea.lk/wp-json/wc/store/v1/products/531",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://illumea.lk/wp-json/wc/store/v1/products"
+    }
+   ],
+   "related": [
+    {
+     "embeddable": true,
+     "href": "https://illumea.lk/wp-json/wc/store/v1/products?related=531&per_page=10"
+    }
+   ]
+  }
+ },
+ {
+  "id": 515,
+  "name": "Illumea Scrub 100g",
+  "slug": "illumea-scrub",
+  "parent": 0,
+  "type": "simple",
+  "variation": "",
+  "permalink": "https://illumea.lk/product/illumea-scrub/",
+  "sku": "",
+  "short_description": "<p><span style=\"font-weight: 400\">Experience the ultimate in exfoliation with Illumea’s Scrub, designed to reveal softer, smoother skin with every use. This luxurious scrub combines natural exfoliants with soothing ingredients to enhance your skin’s texture and clarity.</span></p>",
+  "description": "<p><b>Key Active Ingredients:</b></p>\n<ul>\n<li style=\"font-weight: 400\"><b>Walnut Shell Powder:</b><span style=\"font-weight: 400\"> A natural exfoliant, Walnut Shell Powder gently sloughs away dull and dry skin cells, revealing a softer and more polished complexion. It provides effective, yet gentle, exfoliation to renew your skin’s surface.</span></li>\n<li style=\"font-weight: 400\"><b>Glycolic Acid:</b><span style=\"font-weight: 400\"> This Alpha Hydroxy Acid (AHA) works to exfoliate and brighten the skin by removing dead cells and promoting cell renewal. Glycolic Acid helps to enhance skin clarity and reduce the appearance of imperfections.</span></li>\n<li style=\"font-weight: 400\"><b>Aloe Vera:</b><span style=\"font-weight: 400\"> Known for its soothing and healing properties, Aloe Vera helps to calm and hydrate the skin. It provides relief from irritation and supports the skin’s natural repair processes, ensuring a smooth and comfortable exfoliation.</span></li>\n</ul>\n<p><span style=\"font-weight: 400\">Transform your skincare routine with Illumea’s Scrub, where natural exfoliation meets nourishing care for a revitalized, radiant complexion. Enjoy the benefits of gentle exfoliation and deep hydration with each use.</span></p>",
+  "on_sale": false,
+  "prices": {
+   "price": "300000",
+   "regular_price": "300000",
+   "sale_price": "300000",
+   "price_range": null,
+   "currency_code": "LKR",
+   "currency_symbol": "රු",
+   "currency_minor_unit": 2,
+   "currency_decimal_separator": ".",
+   "currency_thousand_separator": ",",
+   "currency_prefix": "රු",
+   "currency_suffix": ""
+  },
+  "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#xdbb;&#xdd4;</span>3,000.00</span>",
+  "average_rating": "0",
+  "review_count": 0,
+  "images": [
+   {
+    "id": 1084,
+    "src": "https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.08_2504f0a9.jpg",
+    "thumbnail": "https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.08_2504f0a9-300x300.jpg",
+    "srcset": "https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.08_2504f0a9.jpg 1080w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.08_2504f0a9-300x300.jpg 300w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.08_2504f0a9-1024x1024.jpg 1024w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.08_2504f0a9-150x150.jpg 150w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.08_2504f0a9-768x768.jpg 768w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.08_2504f0a9-600x600.jpg 600w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.08_2504f0a9-100x100.jpg 100w",
+    "sizes": "(max-width: 1080px) 100vw, 1080px",
+    "thumbnail_srcset": "https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.08_2504f0a9-300x300.jpg 300w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.08_2504f0a9-1024x1024.jpg 1024w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.08_2504f0a9-150x150.jpg 150w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.08_2504f0a9-768x768.jpg 768w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.08_2504f0a9-600x600.jpg 600w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.08_2504f0a9-100x100.jpg 100w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-07-at-11.00.08_2504f0a9.jpg 1080w",
+    "thumbnail_sizes": "(max-width: 300px) 100vw, 300px",
+    "name": "WhatsApp Image 2025-10-07 at 11.00.08_2504f0a9",
+    "alt": ""
+   }
+  ],
+  "categories": [
+   {
+    "id": 22,
+    "name": "Skin Care",
+    "slug": "skin-care",
+    "link": "https://illumea.lk/product-category/skin-care/"
+   }
+  ],
+  "tags": [],
+  "brands": [
+   {
+    "id": 25,
+    "name": "Available in Sri Lanka and Italy",
+    "slug": "available-in-sri-lanka-and-italy",
+    "link": "https://illumea.lk/brand/available-in-sri-lanka-and-italy/"
+   }
+  ],
+  "attributes": [],
+  "variations": [],
+  "grouped_products": [],
+  "has_options": false,
+  "is_purchasable": true,
+  "is_in_stock": true,
+  "is_on_backorder": false,
+  "low_stock_remaining": null,
+  "stock_availability": {
+   "text": "",
+   "class": "in-stock"
+  },
+  "sold_individually": false,
+  "weight": "",
+  "dimensions": {
+   "length": "",
+   "width": "",
+   "height": ""
+  },
+  "formatted_weight": "N/A",
+  "formatted_dimensions": "N/A",
+  "add_to_cart": {
+   "text": "Add to cart",
+   "description": "Add to cart: &ldquo;Illumea Scrub 100g&rdquo;",
+   "url": "/wp-json/wc/store/v1/products?per_page=100&#038;add-to-cart=515",
+   "single_text": "Add to cart",
+   "minimum": 1,
+   "maximum": 9999,
+   "multiple_of": 1
+  },
+  "is_password_protected": false,
+  "extensions": {},
+  "_links": {
+   "self": [
+    {
+     "href": "https://illumea.lk/wp-json/wc/store/v1/products/515",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://illumea.lk/wp-json/wc/store/v1/products"
+    }
+   ],
+   "related": [
+    {
+     "embeddable": true,
+     "href": "https://illumea.lk/wp-json/wc/store/v1/products?related=515&per_page=10"
+    }
+   ]
+  }
+ },
+ {
+  "id": 506,
+  "name": "Illumea Deep Cleanser 100ml",
+  "slug": "illumea-deep-cleanser",
+  "parent": 0,
+  "type": "simple",
+  "variation": "",
+  "permalink": "https://illumea.lk/product/illumea-deep-cleanser/",
+  "sku": "",
+  "short_description": "<p><span style=\"font-weight: 400\">Revitalize your skin with Illumea’s Deep Cleanser, a powerful formulation designed to deliver a thorough and refreshing cleanse. This advanced formula features a blend of potent active ingredients that work synergistically to purify and rejuvenate your complexion.</span></p>",
+  "description": "<p><b>Key Active Ingredients:</b></p>\n<ul>\n<li style=\"font-weight: 400\"><b>Glycolic Acid:</b><span style=\"font-weight: 400\"> As a leading Alpha Hydroxy Acid (AHA), Glycolic Acid exfoliates the skin by removing dead cells and promoting cell turnover. It helps to smooth and brighten the skin, enhancing overall texture and radiance.</span></li>\n<li style=\"font-weight: 400\"><b>Tea Tree Oil:</b><span style=\"font-weight: 400\"> Renowned for its antibacterial, antifungal, and antioxidant properties, Tea Tree Oil tackles impurities and reduces inflammation. It helps to clear and calm the skin, supporting a clearer and healthier appearance.</span></li>\n<li style=\"font-weight: 400\"><b>Lactic Acid:</b><span style=\"font-weight: 400\"> This gentle AHA exfoliates and hydrates the skin, improving its texture and luminosity. Lactic Acid helps to maintain optimal moisture levels while refining the skin’s surface for a smoother, more radiant look.</span></li>\n</ul>\n<p><span style=\"font-weight: 400\">Elevate your cleansing routine with Illumea’s Deep Cleanser, where each use helps to purify, refresh, and rejuvenate your skin, leaving you with a clean and glowing complexion.</span></p>",
+  "on_sale": false,
+  "prices": {
+   "price": "135000",
+   "regular_price": "135000",
+   "sale_price": "135000",
+   "price_range": null,
+   "currency_code": "LKR",
+   "currency_symbol": "රු",
+   "currency_minor_unit": 2,
+   "currency_decimal_separator": ".",
+   "currency_thousand_separator": ",",
+   "currency_prefix": "රු",
+   "currency_suffix": ""
+  },
+  "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#xdbb;&#xdd4;</span>1,350.00</span>",
+  "average_rating": "0",
+  "review_count": 0,
+  "images": [
+   {
+    "id": 1067,
+    "src": "https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.28_9bc4330f.jpg",
+    "thumbnail": "https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.28_9bc4330f-300x300.jpg",
+    "srcset": "https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.28_9bc4330f.jpg 1000w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.28_9bc4330f-300x300.jpg 300w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.28_9bc4330f-150x150.jpg 150w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.28_9bc4330f-768x768.jpg 768w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.28_9bc4330f-600x600.jpg 600w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.28_9bc4330f-100x100.jpg 100w",
+    "sizes": "(max-width: 1000px) 100vw, 1000px",
+    "thumbnail_srcset": "https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.28_9bc4330f-300x300.jpg 300w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.28_9bc4330f-150x150.jpg 150w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.28_9bc4330f-768x768.jpg 768w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.28_9bc4330f-600x600.jpg 600w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.28_9bc4330f-100x100.jpg 100w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.28_9bc4330f.jpg 1000w",
+    "thumbnail_sizes": "(max-width: 300px) 100vw, 300px",
+    "name": "WhatsApp Image 2025-10-03 at 09.21.28_9bc4330f",
+    "alt": ""
+   }
+  ],
+  "categories": [
+   {
+    "id": 22,
+    "name": "Skin Care",
+    "slug": "skin-care",
+    "link": "https://illumea.lk/product-category/skin-care/"
+   }
+  ],
+  "tags": [],
+  "brands": [
+   {
+    "id": 25,
+    "name": "Available in Sri Lanka and Italy",
+    "slug": "available-in-sri-lanka-and-italy",
+    "link": "https://illumea.lk/brand/available-in-sri-lanka-and-italy/"
+   }
+  ],
+  "attributes": [],
+  "variations": [],
+  "grouped_products": [],
+  "has_options": false,
+  "is_purchasable": true,
+  "is_in_stock": true,
+  "is_on_backorder": false,
+  "low_stock_remaining": null,
+  "stock_availability": {
+   "text": "",
+   "class": "in-stock"
+  },
+  "sold_individually": false,
+  "weight": "",
+  "dimensions": {
+   "length": "",
+   "width": "",
+   "height": ""
+  },
+  "formatted_weight": "N/A",
+  "formatted_dimensions": "N/A",
+  "add_to_cart": {
+   "text": "Add to cart",
+   "description": "Add to cart: &ldquo;Illumea Deep Cleanser 100ml&rdquo;",
+   "url": "/wp-json/wc/store/v1/products?per_page=100&#038;add-to-cart=506",
+   "single_text": "Add to cart",
+   "minimum": 1,
+   "maximum": 9999,
+   "multiple_of": 1
+  },
+  "is_password_protected": false,
+  "extensions": {},
+  "_links": {
+   "self": [
+    {
+     "href": "https://illumea.lk/wp-json/wc/store/v1/products/506",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://illumea.lk/wp-json/wc/store/v1/products"
+    }
+   ],
+   "related": [
+    {
+     "embeddable": true,
+     "href": "https://illumea.lk/wp-json/wc/store/v1/products?related=506&per_page=10"
+    }
+   ]
+  }
+ },
+ {
+  "id": 501,
+  "name": "Illumea Anti-Acne Face Wash 100ml",
+  "slug": "illumea-anti-acne-face-wash",
+  "parent": 0,
+  "type": "simple",
+  "variation": "",
+  "permalink": "https://illumea.lk/product/illumea-anti-acne-face-wash/",
+  "sku": "",
+  "short_description": "<p><span style=\"font-weight: 400\">Unleash the power of clear, radiant skin with Illumea’s Anti-Acne Face Wash, expertly formulated to combat breakouts and restore your complexion to its natural glow. Infused with a potent blend of active ingredients, this face wash tackles acne at its source while providing a refreshing and invigorating cleansing experience.</span></p>\n<p><strong>100ml</strong></p>",
+  "description": "<p><b>Key Active Ingredients:</b></p>\n<ul>\n<li style=\"font-weight: 400\"><b>Menthol:</b><span style=\"font-weight: 400\"> Infused with menthol, this face wash delivers a cooling sensation that soothes irritated skin and reduces redness. It helps to calm inflammation and leave your skin feeling refreshed and revitalized.</span></li>\n<li style=\"font-weight: 400\"><b>Salicylic Acid:</b><span style=\"font-weight: 400\"> Renowned for its acne-fighting properties, Salicylic Acid works to penetrate deep into the pores, reducing swelling and redness while effectively unclogging blocked pores. This helps to diminish the appearance of pimples and prevent future breakouts.</span></li>\n<li style=\"font-weight: 400\"><b>Glycolic Acid:</b><span style=\"font-weight: 400\"> This powerful Alpha Hydroxy Acid (AHA) gently exfoliates the skin, removing dead cells and promoting cell renewal. Glycolic Acid helps to refine skin texture, brighten the complexion, and reduce the appearance of acne scars.</span></li>\n<li style=\"font-weight: 400\"><b>Peppermint Oil:</b><span style=\"font-weight: 400\"> Known for its natural antibacterial properties, Peppermint Oil helps to purify the skin and provide a fresh, invigorating scent. It works in tandem with other active ingredients to enhance the overall clarity and health of your skin.</span></li>\n</ul>\n<p><span style=\"font-weight: 400\">Transform your skincare routine with Illumea’s Anti-Acne Face Wash, where each use helps to clarify, smooth, and invigorate your skin. Say goodbye to acne and hello to a clearer, more confident you.</span></p>",
+  "on_sale": false,
+  "prices": {
+   "price": "140000",
+   "regular_price": "140000",
+   "sale_price": "140000",
+   "price_range": null,
+   "currency_code": "LKR",
+   "currency_symbol": "රු",
+   "currency_minor_unit": 2,
+   "currency_decimal_separator": ".",
+   "currency_thousand_separator": ",",
+   "currency_prefix": "රු",
+   "currency_suffix": ""
+  },
+  "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#xdbb;&#xdd4;</span>1,400.00</span>",
+  "average_rating": "0",
+  "review_count": 0,
+  "images": [
+   {
+    "id": 1061,
+    "src": "https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.27_40de6cd9.jpg",
+    "thumbnail": "https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.27_40de6cd9-300x300.jpg",
+    "srcset": "https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.27_40de6cd9.jpg 1000w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.27_40de6cd9-300x300.jpg 300w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.27_40de6cd9-150x150.jpg 150w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.27_40de6cd9-768x768.jpg 768w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.27_40de6cd9-600x600.jpg 600w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.27_40de6cd9-100x100.jpg 100w",
+    "sizes": "(max-width: 1000px) 100vw, 1000px",
+    "thumbnail_srcset": "https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.27_40de6cd9-300x300.jpg 300w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.27_40de6cd9-150x150.jpg 150w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.27_40de6cd9-768x768.jpg 768w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.27_40de6cd9-600x600.jpg 600w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.27_40de6cd9-100x100.jpg 100w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.27_40de6cd9.jpg 1000w",
+    "thumbnail_sizes": "(max-width: 300px) 100vw, 300px",
+    "name": "WhatsApp Image 2025-10-03 at 09.21.27_40de6cd9",
+    "alt": ""
+   }
+  ],
+  "categories": [
+   {
+    "id": 22,
+    "name": "Skin Care",
+    "slug": "skin-care",
+    "link": "https://illumea.lk/product-category/skin-care/"
+   }
+  ],
+  "tags": [],
+  "brands": [
+   {
+    "id": 25,
+    "name": "Available in Sri Lanka and Italy",
+    "slug": "available-in-sri-lanka-and-italy",
+    "link": "https://illumea.lk/brand/available-in-sri-lanka-and-italy/"
+   }
+  ],
+  "attributes": [],
+  "variations": [],
+  "grouped_products": [],
+  "has_options": false,
+  "is_purchasable": true,
+  "is_in_stock": true,
+  "is_on_backorder": false,
+  "low_stock_remaining": null,
+  "stock_availability": {
+   "text": "",
+   "class": "in-stock"
+  },
+  "sold_individually": false,
+  "weight": "",
+  "dimensions": {
+   "length": "",
+   "width": "",
+   "height": ""
+  },
+  "formatted_weight": "N/A",
+  "formatted_dimensions": "N/A",
+  "add_to_cart": {
+   "text": "Add to cart",
+   "description": "Add to cart: &ldquo;Illumea Anti-Acne Face Wash 100ml&rdquo;",
+   "url": "/wp-json/wc/store/v1/products?per_page=100&#038;add-to-cart=501",
+   "single_text": "Add to cart",
+   "minimum": 1,
+   "maximum": 9999,
+   "multiple_of": 1
+  },
+  "is_password_protected": false,
+  "extensions": {},
+  "_links": {
+   "self": [
+    {
+     "href": "https://illumea.lk/wp-json/wc/store/v1/products/501",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://illumea.lk/wp-json/wc/store/v1/products"
+    }
+   ],
+   "related": [
+    {
+     "embeddable": true,
+     "href": "https://illumea.lk/wp-json/wc/store/v1/products?related=501&per_page=10"
+    }
+   ]
+  }
+ },
+ {
+  "id": 497,
+  "name": "Illumea Face Wash 100ml",
+  "slug": "illumea-face-wash",
+  "parent": 0,
+  "type": "simple",
+  "variation": "",
+  "permalink": "https://illumea.lk/product/illumea-face-wash/",
+  "sku": "",
+  "short_description": "<p><span style=\"font-weight: 400\">Discover the transformative power of Illumea’s Revitalizing Face Wash, meticulously formulated to rejuvenate and refresh your skin. Enriched with potent active ingredients, this luxurious cleanser is designed to elevate your daily skincare routine and reveal a brighter, smoother complexion.</span></p>",
+  "description": "<p><b>Key Active Ingredients:</b></p>\n<ul>\n<li style=\"font-weight: 400\"><b>Vitamin B3 (Niacinamide):</b><span style=\"font-weight: 400\"> Known for its skin-brightening and anti-inflammatory properties, Vitamin B3 helps to even out skin tone, reduce redness, and improve overall skin texture. It also strengthens the skin’s natural barrier, ensuring it remains hydrated and resilient.</span></li>\n<li style=\"font-weight: 400\"><b>Glycolic Acid:</b><span style=\"font-weight: 400\"> As a leading Alpha Hydroxy Acid (AHA), Glycolic Acid gently exfoliates the skin by dissolving the bonds between dead skin cells. This process promotes cell turnover, leaving your skin looking renewed and vibrant while minimizing the appearance of fine lines and blemishes.</span></li>\n<li style=\"font-weight: 400\"><b>Lactic Acid:</b><span style=\"font-weight: 400\"> This multifunctional ingredient not only acts as a gentle exfoliant but also works as a moisturizer and pH balancer. Lactic Acid helps to smooth and soften the skin, enhance its natural radiance, and maintain optimal hydration levels.</span></li>\n</ul>\n<p><span style=\"font-weight: 400\">Elevate your skincare routine with Illumea’s Revitalizing Face Wash, where each application delivers a refreshing burst of clarity and brightness. Embrace the perfect blend of science and luxury to unveil your most luminous self.</span></p>",
+  "on_sale": false,
+  "prices": {
+   "price": "135000",
+   "regular_price": "135000",
+   "sale_price": "135000",
+   "price_range": null,
+   "currency_code": "LKR",
+   "currency_symbol": "රු",
+   "currency_minor_unit": 2,
+   "currency_decimal_separator": ".",
+   "currency_thousand_separator": ",",
+   "currency_prefix": "රු",
+   "currency_suffix": ""
+  },
+  "price_html": "<span class=\"woocommerce-Price-amount amount\"><span class=\"woocommerce-Price-currencySymbol\">&#xdbb;&#xdd4;</span>1,350.00</span>",
+  "average_rating": "0",
+  "review_count": 0,
+  "images": [
+   {
+    "id": 1068,
+    "src": "https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.29_22dd1c52.jpg",
+    "thumbnail": "https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.29_22dd1c52-300x300.jpg",
+    "srcset": "https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.29_22dd1c52.jpg 1000w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.29_22dd1c52-300x300.jpg 300w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.29_22dd1c52-150x150.jpg 150w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.29_22dd1c52-768x768.jpg 768w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.29_22dd1c52-600x600.jpg 600w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.29_22dd1c52-100x100.jpg 100w",
+    "sizes": "(max-width: 1000px) 100vw, 1000px",
+    "thumbnail_srcset": "https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.29_22dd1c52-300x300.jpg 300w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.29_22dd1c52-150x150.jpg 150w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.29_22dd1c52-768x768.jpg 768w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.29_22dd1c52-600x600.jpg 600w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.29_22dd1c52-100x100.jpg 100w, https://illumea.lk/wp-content/uploads/2025/09/WhatsApp-Image-2025-10-03-at-09.21.29_22dd1c52.jpg 1000w",
+    "thumbnail_sizes": "(max-width: 300px) 100vw, 300px",
+    "name": "WhatsApp Image 2025-10-03 at 09.21.29_22dd1c52",
+    "alt": ""
+   }
+  ],
+  "categories": [
+   {
+    "id": 22,
+    "name": "Skin Care",
+    "slug": "skin-care",
+    "link": "https://illumea.lk/product-category/skin-care/"
+   }
+  ],
+  "tags": [],
+  "brands": [
+   {
+    "id": 25,
+    "name": "Available in Sri Lanka and Italy",
+    "slug": "available-in-sri-lanka-and-italy",
+    "link": "https://illumea.lk/brand/available-in-sri-lanka-and-italy/"
+   }
+  ],
+  "attributes": [],
+  "variations": [],
+  "grouped_products": [],
+  "has_options": false,
+  "is_purchasable": true,
+  "is_in_stock": true,
+  "is_on_backorder": false,
+  "low_stock_remaining": null,
+  "stock_availability": {
+   "text": "",
+   "class": "in-stock"
+  },
+  "sold_individually": false,
+  "weight": "",
+  "dimensions": {
+   "length": "",
+   "width": "",
+   "height": ""
+  },
+  "formatted_weight": "N/A",
+  "formatted_dimensions": "N/A",
+  "add_to_cart": {
+   "text": "Add to cart",
+   "description": "Add to cart: &ldquo;Illumea Face Wash 100ml&rdquo;",
+   "url": "/wp-json/wc/store/v1/products?per_page=100&#038;add-to-cart=497",
+   "single_text": "Add to cart",
+   "minimum": 1,
+   "maximum": 9999,
+   "multiple_of": 1
+  },
+  "is_password_protected": false,
+  "extensions": {},
+  "_links": {
+   "self": [
+    {
+     "href": "https://illumea.lk/wp-json/wc/store/v1/products/497",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://illumea.lk/wp-json/wc/store/v1/products"
+    }
+   ],
+   "related": [
+    {
+     "embeddable": true,
+     "href": "https://illumea.lk/wp-json/wc/store/v1/products?related=497&per_page=10"
+    }
+   ]
+  }
+ }
+]

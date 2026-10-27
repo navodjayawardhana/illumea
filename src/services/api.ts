@@ -37,7 +37,7 @@ async function request<T>(path: string, init?: RequestInit): Promise<T> {
   return body as T;
 }
 
-interface ShopProduct {
+export interface ShopProduct {
   id: string;
   slug: string;
   name: string;
@@ -120,7 +120,44 @@ export interface ShippingQuote {
   message: string;
 }
 
+/** One published review exactly as Vertik sends it (ProductReview::toApi()). */
+export interface ShopReview {
+  id: string | number;
+  /** A first name and an initial; never a phone number or an order. */
+  name: string;
+  rating: number;
+  title: string | null;
+  body: string | null;
+  verified: boolean;
+  /** The shop's answer, if it has written one. */
+  reply: string | null;
+  date: string | null;
+}
+
+export interface ReviewPayload {
+  order_number: string;
+  phone: string;
+  rating: number;
+  title?: string;
+  body: string;
+}
+
 export const api = {
+  /**
+   * Every published product exactly as Vertik sends it. The React clone of the live site maps
+   * these to its WooCommerce-shaped catalogue itself (src/catalogue/data.ts) rather than through
+   * toProduct(), because it needs the slug, every image and the categories untouched.
+   */
+  async getShopProducts(): Promise<ShopProduct[]> {
+    const all: ShopProduct[] = [];
+    for (let page = 1; page <= 20; page++) {
+      const res = await request<{ products: ShopProduct[]; meta: { pages: number } }>(`/products?per_page=100&page=${page}`);
+      all.push(...res.products);
+      if (page >= res.meta.pages) break;
+    }
+    return all;
+  },
+
   async getProducts(): Promise<Product[]> {
     const all: Product[] = [];
     for (let page = 1; page <= 20; page++) {
@@ -129,6 +166,34 @@ export const api = {
       if (page >= res.meta.pages) break;
     }
     return all;
+  },
+
+  /**
+   * Every published review of a product, all pages. `slug` is Vertik's own slug, not the
+   * WooCommerce one the site's URLs use. 50 is the most Vertik returns per page.
+   */
+  async getProductReviews(slug: string): Promise<ShopReview[]> {
+    const all: ShopReview[] = [];
+    for (let page = 1; page <= 10; page++) {
+      const res = await request<{ reviews: ShopReview[]; meta: { pages: number } }>(
+        `/products/${encodeURIComponent(slug)}/reviews?per_page=50&page=${page}`,
+      );
+      all.push(...res.reviews);
+      if (page >= res.meta.pages) break;
+    }
+    return all;
+  },
+
+  /**
+   * Only someone who bought the product can review it: Vertik matches the order number and phone,
+   * and answers 404 (no such order) or 422 (order lacks this product, or a field is wrong) in
+   * plain words that the form shows as they are. The review waits for shop staff to approve it.
+   */
+  async submitProductReview(slug: string, r: ReviewPayload) {
+    return request<{ message: string }>(`/products/${encodeURIComponent(slug)}/reviews`, {
+      method: 'POST',
+      body: JSON.stringify({ ...r, title: r.title || null }),
+    });
   },
 
   async getShippingQuote(city: string, weightGrams: number, subtotal: number): Promise<ShippingQuote> {
